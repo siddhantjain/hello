@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Siddhant Jain | Computer Vision Engineer"
+title: "Siddhant Jain / Computer Vision Engineer"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
