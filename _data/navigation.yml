@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Patents"
-    url: /patents/
+  #- title: "Publications"
+  #  url: /publications/
   - title: "Projects"
     url: /projects/
 
@@ -13,4 +13,7 @@ main:
           
   - title: "Blog Posts"
     url: /year-archive/
-      
+    
+  - title: "CV"
+    url: /cv/
+    
