@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kaggle - Data Science London + Scikit-learn (Using SVM in R)
 date: 2013-12-31 17:22
 author: siddhantj

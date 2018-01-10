@@ -1,5 +1,4 @@
 ---
-layout: post
 title: TIL - Include guards
 date: 2016-01-20 08:57
 author: siddhantj

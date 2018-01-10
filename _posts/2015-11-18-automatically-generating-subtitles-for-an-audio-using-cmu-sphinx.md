@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Automatically Generating Subtitles for an Audio using CMU Sphinx
 date: 2015-11-18 10:25
 author: siddhantj

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Finding System Statistics in Java
 date: 2015-01-20 09:53
 author: siddhantj

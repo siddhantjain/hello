@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Socket client-server program in Java
 date: 2015-01-19 05:47
 author: siddhantj

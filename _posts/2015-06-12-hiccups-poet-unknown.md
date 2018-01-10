@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hiccups, Poet-Unknown
 date: 2015-06-12 11:35
 author: siddhantj

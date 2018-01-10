@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Cycling to Work
 date: 2015-05-14 08:57
 author: siddhantj

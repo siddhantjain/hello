@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Monitoring an AWS cloud using the AWS SDK
 date: 2015-03-30 09:14
 author: siddhantj

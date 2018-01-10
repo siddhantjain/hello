@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Battling with the Computer - 2 of many
 date: 2014-04-02 03:11
 author: siddhantj

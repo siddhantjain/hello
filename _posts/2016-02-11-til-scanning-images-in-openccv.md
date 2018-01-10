@@ -1,5 +1,4 @@
 ---
-layout: post
 title: TIL - Scanning Images in openCV
 date: 2016-02-11 12:48
 author: siddhantj

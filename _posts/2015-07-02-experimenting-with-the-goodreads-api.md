@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Experimenting with the Goodreads API
 date: 2015-07-02 06:02
 author: siddhantj

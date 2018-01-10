@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Parsing command line arguments in Java
 date: 2015-11-27 09:45
 author: siddhantj

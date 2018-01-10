@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Trading in the Indian Stock markets
 date: 2014-11-17 09:15
 author: siddhantj
