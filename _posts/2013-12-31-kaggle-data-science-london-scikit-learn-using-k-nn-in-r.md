@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kaggle – Data Science London + Scikit-learn (Using k-nn in R)
 date: 2013-12-31 19:11
 author: siddhantj
