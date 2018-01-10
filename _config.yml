@@ -175,6 +175,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  patents:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -216,6 +219,15 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _patents
+  - scope:
+      path: ""
+      type: patents
     values:
       layout: single
       author_profile: true
