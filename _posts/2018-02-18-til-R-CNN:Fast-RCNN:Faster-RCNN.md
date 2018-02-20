@@ -42,6 +42,27 @@ Note that so far, we have only done Object Detection, but not object segmentatio
 
 # [Fast R-CNN](https://arxiv.org/abs/1504.08083)
 
+This method is an attempt to improve on the speed of R-CNN. In R-CNN we saw that the approach was to find region proposals and then run each region proposal through a CNN, to get some classification scores. Now, we are clearly doing some redundant calculation here because many of these region proposals overlap with each other. So, in this paper, the broad idea is to first run the entire image through the CNN and get a convolution map for it. So, imagine, we have a image of dimensions I~H X I~W. Because of pooling layers, we will be bringing this down to dimensions I~h X I~w. So now, we find the features corresponding to each region proposal by finding the corresponding location for a region proposal in the convolution map (take a break and think about how this can be done. Go back to how we find correspondences when doing backpropogation to find the influence of a particular weight in the derivative of the loss function). Once, this is done, the authors introduce a new layer, termed, ROI Pooling. This layers converts each ROI feature map of varying sizes into a fixed sixed feature vector. The feature vector finally feed into a set of fully connected layers that branch into two output layers, one that gives softmax probability estimates over the object classes and another that gives a refined bounding box position for this region.
+
+Some interesting things to know:
+
+## ROI Pooling
+I am not sure if this is the first paper to use ROI Pooling, but this is the first time I came across the concept. This layer takes in a feature map of any size and converts it into a feature map of a fixed size by using max pooling. The final H and W of the output feature map are hyper parameters for the pooling layer. The way it works is that given any large feature map, first dividee the feature map in sub-grids, such that we have H X W subgrids (where H and W are the hyper parameters we discussed above). Now, do a max pool of the values in each of the sub-grids, to evaluate the feature map. The derivate calculation methodology is mentioned in the paper and probably worth a  read if you are feeling motivated.
+
+## Multi-task loss
+Another interesting concept in the paper is that of the mutitask loss. As I noted earlier, in this system, we finally branch out to two outputs, one corresponding to the softmax classification for a region and another corresponding to the bounding box estimate. The loss function in such a case is sum of individual losses for the bounding box and the classification. This can be a weighted sum, but in the paper at least the weights are equal. In the paper they have done experiments to demonstrate how having a multi-class loss improves the accuracy of the overall system (as compared to having individual losses). Interesting read, can check it out.
+
+# [Faster R-CNN](https://arxiv.org/pdf/1506.01497.pdf)
+ And now finally, the raison d'être for this entire post. It's weird how the authors incremently worked on these ideas, almost like a T.V show, where they had a plot in mind and slowly revealed each aspect of the plot through different publications (will they have the guts to claim a season finale with Fastest R-CNN?). Anywho, so far we saw that with fast R-CNN, a improvement in speed was achieved by doing away with redundant calculations while running region proposals through a CNN. However the bottleneck remained in calculating the region proposals themselves. So, now the contribution/innovation is in doing away with the classical region proposal techniques and use a learning based system for the region proposals as well.
+
+Here is a quick summary:
+
+In the R-CNN/Fast R-CNN paper, finding region proposals is done in an unsupervised manner. They look at properties (such as colour, texture, shape etc.) in the image to find bounding boxes around parts of the region where there is a chance of an object.
+However, the authors note that finding these region proposals is expensive. They observe that the object detection phase is already calculating interesting features (in a hierarchical manner) in an image. Some of these calculations should be useful in finding out regions of interests in the image as well. Hence, they club the two together in one system.
+
+So, they start with running a given image through a CNN to obtain a convolution map of the image. This convolutional map feeds into a Region Proposal Network - a Fully Convolutional Network that provides region proposals. The region proposals along with the feature map that was used to calculate these region proposals go into the object detection system (Fast R-CNN). Thus, finally, obtaining labelled bounding boxes in the image.
+
+
 
 
 
