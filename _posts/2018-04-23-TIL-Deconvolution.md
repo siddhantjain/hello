@@ -1,5 +1,5 @@
 ---
-title: TIL: Deconvolution
+title: TIL - Deconvolution
 date: 2018-04-23 10:32
 author: siddhantj
 comments: true
