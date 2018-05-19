@@ -11,7 +11,7 @@ A drone trying to land autonomously needs the ability to evaluate various parts 
 ## System Overview
 The following diagram gives an overview of the system we developed along with highlighting the core components used:
 
-<img src="siddhantjain.github.io/images/system_overview.png"
+<img src="https://siddhantjain.github.io/images/system_overview.png"
 alt="System Overview"
 style="float: left; margin-right: 10px;" />
 
@@ -21,4 +21,4 @@ here is a link to a presentation for this work:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQR2uSJ4D_u4DPDmUxQLdHcBKs3npcm6p5xmnL7RezcFAe3CMYzk_cyg6P9DsTtQsHZ5lGwFqdyyINQ/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
-For more details, check out our write-up for this work here: https://siddhantjain.github.io/files/landing-site-slam.pdf
+For more details, check out our write-up for this work here: [Link to Write-up](https://siddhantjain.github.io/files/landing-site-slam.pdf)
