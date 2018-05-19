@@ -1,7 +1,7 @@
 ---
 title: Simultaneous Localisation and Mapping for Landing Site evaluation for drones
 desc: A complete SLAM system to evaluate the ground plane for potential landing sites
-proj-url: (siddhantjain.github.io/files/landing-site-slam.pdf)
+proj-url: (https://siddhantjain.github.io/files/landing-site-slam.pdf)
 
 ---
 This project was done as a part of coursework for 16-833 (Robot Localisation and Mapping) at Carnegie Mellon University
@@ -21,4 +21,4 @@ here is a link to a presentation for this work:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQR2uSJ4D_u4DPDmUxQLdHcBKs3npcm6p5xmnL7RezcFAe3CMYzk_cyg6P9DsTtQsHZ5lGwFqdyyINQ/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
-For more details, check out our write-up for this work here: siddhantjain.github.io/files/landing-site-slam.pdf
+For more details, check out our write-up for this work here: https://siddhantjain.github.io/files/landing-site-slam.pdf
