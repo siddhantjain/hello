@@ -7,4 +7,4 @@ date: 2016-10-31
 venue: 'USPTO'
 ---
 
-This patent was filed by Adobe in multiple geographies and is pending approval.
+This patent around Augmented Reality was filed by Adobe in multiple geographies and is pending approval. Have a look at it (here)[https://patents.justia.com/patent/20180121988]
