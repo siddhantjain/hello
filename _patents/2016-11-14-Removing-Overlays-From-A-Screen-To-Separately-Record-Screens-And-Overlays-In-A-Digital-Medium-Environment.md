@@ -7,4 +7,4 @@ date: 2016-11-14
 venue: 'USPTO'
 ---
 
-Work done for the 2017 release of Adobe Presenter Video Express 2017. This patent was filed by Adobe in 2016 and is pending approval from USPTO. I am the first inventor for this patent.
+Image processing work done for the 2017 release of Adobe Presenter Video Express 2017. This patent was filed by Adobe in 2016 and is pending approval from USPTO. I am the first inventor for this patent. Have a look at the patent, [here](https://patents.justia.com/patent/20180137835)
