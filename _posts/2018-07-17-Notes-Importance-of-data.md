@@ -1,5 +1,5 @@
 ---
-title: Notes: Importance of data in vision
+title: Notes - Importance of data in vision
 date: 2018-07-17 10:32
 author: siddhantj
 category: Computer Vision
