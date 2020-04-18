@@ -25,8 +25,8 @@ Yes, two!
 
 I mean not really references, but good resources that helped with my quick understading. Check them out.
 
-1. (https://datascience.stackexchange.com/questions/6107/what-are-deconvolutional-layers)[https://datascience.stackexchange.com/questions/6107/what-are-deconvolutional-layers]
-2. (http://cv-tricks.com/image-segmentation/transpose-convolution-in-tensorflow/)[http://cv-tricks.com/image-segmentation/transpose-convolution-in-tensorflow/]
+1. [https://datascience.stackexchange.com/questions/6107/what-are-deconvolutional-layers](https://datascience.stackexchange.com/questions/6107/what-are-deconvolutional-layers)
+2. [http://cv-tricks.com/image-segmentation/transpose-convolution-in-tensorflow/](http://cv-tricks.com/image-segmentation/transpose-convolution-in-tensorflow/)
 
 
 

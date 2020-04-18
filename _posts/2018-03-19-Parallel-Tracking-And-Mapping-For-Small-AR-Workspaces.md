@@ -6,7 +6,7 @@ comments: true
 category: SLAM
 ---
 
-This is a summary of a paper i recently read. The paper can be found here: [http://www.robots.ox.ac.uk/~gk/publications/KleinMurray2007ISMAR.pdf]
+This is a summary of a paper i recently read. The paper can be found here: [http://www.robots.ox.ac.uk/~gk/publications/KleinMurray2007ISMAR.pdf](http://www.robots.ox.ac.uk/~gk/publications/KleinMurray2007ISMAR.pdf)
 
 # What is the problem that is being addressed?
 We want to estimate the pose (x,y,z, theta) of a camera in a scene the camera has not scene previously. This paper was released in 2007 and considered to be an important work on the field. Hopefully through this summary, i will be able to summarise the important ideas in the paper.

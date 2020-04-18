@@ -26,8 +26,8 @@ Step 4: Check the sum of distances of correspondences from PC1 to PC2. Is this s
 
 This was a quick and dirty overview. I found the following resources useful:
 
-1. https://www.coursera.org/learn/robotics-learning/lecture/1jDix/iterative-closest-point
-2. https://www.ncbi.nlm.nih.gov/pubmed/28800096
+1. [https://www.coursera.org/learn/robotics-learning/lecture/1jDix/iterative-closest-point](https://www.coursera.org/learn/robotics-learning/lecture/1jDix/iterative-closest-point)
+2. [https://www.ncbi.nlm.nih.gov/pubmed/28800096](https://www.ncbi.nlm.nih.gov/pubmed/28800096)
 
 
 
