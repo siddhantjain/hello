@@ -15,6 +15,7 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
+  {% include sidebar.html %}
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -61,6 +62,10 @@ layout: default
         {% endif %}
         {% include page__taxonomy.html %}
       </footer>
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+
+      {% include post_pagination.html %}
     </div>
 
     {% if site.comments.provider and page.comments %}

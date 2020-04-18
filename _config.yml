@@ -15,7 +15,7 @@ url                      : https://siddhantjain.github.io # the base hostname & 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "siddhantjain/siddhantjain.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 comments:
@@ -80,11 +80,11 @@ analytics:
 author:
   name             : "Siddhant Jain"
   avatar           : "profile.png"
-  bio              : "Graduate student at Robotics Institute, Carnegie Mellon University"
-  location         : "Pittsburgh,PA"
+  bio              : "Software Engineer, Google"
+  location         : "Sunnyvale,CA"
   employer         :
   googlescholar    : 
-  email            : "siddhantjain@cmu.edu"
+  email            : "post.siddhant@gmail.com"
   uri              :
   bitbucket        :
   codepen          :

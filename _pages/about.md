@@ -1,4 +1,5 @@
 ---
+layout: single_w_sidebar
 permalink: /
 title: "Siddhant Jain / Computer Vision Engineer"
 excerpt: "About me"
@@ -7,7 +8,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Hello!
 
-I am currently pursuing an [MS in Computer Vision](https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision-mscv/) from the Robotics Institute at Carnegie Mellon University. Prior to CMU I was working with Adobe Systems, India as a software developer on [Adobe Presenter Video Express](www.adobe.com/products/presenter-video-express.html)- building new video creation workflows using computer vision and image processing. 
+I am a software engineer specialising in computer vision. Specifically, I enjoy working on problems around 3D computer vision and engineering them into products that can be used at scale.
 
-I attended Birla Insitute of Technology and Science, Pilani as an undergraduate student where I double majored in Computer Science and Economics. I thoroughly enjoyed economics, but eventually decided to pursure a career as a computer scientist. For more details on my work, please refer to my [CV](siddhantjain.github.io/files/SiddhantJainResume.pdf).
+For my educational and professional background check out my [LinkedIn profile](https://www.linkedin.com/in/bluenotebook/)
+
+I sometimes write about (mostly technical) things on this [blog](https://siddhantjain.github.io/year-archive/).
+
+I am always happy to meet and/or collaborate with new people. Please feel free to reach out via [email](mailto:post.siddhant@gmail.com)
